@@ -1,0 +1,92 @@
+.menu-container {
+  height: 100vh;
+  max-width: 20vw;
+  min-width: 15vw;
+  background-color: #f5f6fa;
+  padding-top: 5vh;
+  margin: auto;
+  position: fixed;
+  display: block;
+}
+.nav-title {
+  color: black !important;
+}
+.nav-logo {
+  width: 5.5vmin;
+  height: 5.5vmin;
+  padding: 1%;
+  border-radius: 20%;
+}
+
+.dash-container {
+  height: 100vh;
+  width: 100vw;
+}
+.nav-text {
+  padding: 2%;
+}
+.nav {
+  background-color: #f5f6fa;
+  position: fixed;
+  max-width: 100vw;
+  min-width: 20vw;
+  max-height: 8vh;
+  min-height: 5vh;
+}
+.sidebar-list {
+  width: 20vw;
+  height: auto;
+  padding: 0;
+  display: block;
+  margin-top: 2rem;
+}
+
+.sidebar-list .row {
+  width: 20vw;
+  height: 5vh;
+  list-style-type: none;
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+}
+
+.sidebar-list .row:hover {
+  cursor: pointer;
+  background-color: #dfe4ea;
+}
+
+.sidebar-list #active {
+  background-color: #dfe4ea;
+}
+.admin-statusholder {
+  padding-right: 5%;
+}
+.title-control {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: auto;
+  height: auto;
+  font-size: 2.5vmin;
+  display: flex;
+
+  display: block;
+
+  padding-right: 1%;
+}
+.user-email {
+  font-size: 2vmin;
+}
+.admin-statusholder {
+  font-size: 2vmin;
+}
